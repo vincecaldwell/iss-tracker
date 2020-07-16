@@ -2,7 +2,7 @@
 
 
 .container {
-  background-image: linear-gradient(to right, #4A9470, #486F88);
+  background-image: linear-gradient(to right, #74b9ff, #0984e3);
   text-align: center;
   margin: auto;
   padding-top:10px;
@@ -27,4 +27,5 @@
   font-size: 2rem;
   line-height: 2;
   border-top: 2px dashed white;
+
 }
