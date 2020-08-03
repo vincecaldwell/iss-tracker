@@ -2,17 +2,47 @@
 
 .data-container{
     align-content: center;
+    font-size: 1.75rem;
 }
 
 .info {
-    font-size: 1.25rem;
     line-height: 1.5;
-    border: 1.5px dashed white;
-    margin:10px 4rem;
+    margin: 1.25rem 4rem;
+    overflow-wrap: break-word;
 
 }
 
 .space{
     padding: 10px 0;
     font-size: 2.5rem;
+}
+
+
+
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .data-container{
+        font-size: 1.5rem;
+    }
+    .info {
+        margin: 1.25rem 3rem;
+    }
+
+    .space{
+        font-size: 1.75rem;
+    }
+
+}
+
+
+@media (max-width: 768px){
+    .data-container{
+        font-size: 1.25rem;
+    }
+    .info {
+        margin: 1rem 0;
+    }
+    .space{
+        font-size: 1.25rem;
+    }
 }

@@ -10,8 +10,7 @@ class App extends Component {
   constructor() {
     super();
   this.state ={
-      stationData: [],
-      coordinates: []
+      stationData: []
   };
 }
 
@@ -20,12 +19,9 @@ componentDidMount(){
   fetch('https://api.wheretheiss.at/v1/satellites/25544?units=miles')
   .then(response => response.json())
   .then(data => this.setState({stationData: data}));
-  
-  //MAP FETCH
-  fetch('https://api.wheretheiss.at/v1/coordinates/37.795517,-122.393693')
-  .then(response => response.json())
-  .then(data2 => this.setState({coordinates: data2}));
 }
+  
+
   
 
   //Refresh Data when button clicked
@@ -40,18 +36,16 @@ componentDidMount(){
 render() {
   return(
         <div className= "container">
-          {/* {console.log(this.state.stationData)} */}
-          {/* {console.log(this.state.coordinates)} */}
             <Header />
             <DataCard station = {this.state.stationData}/>
             <Button
-              type="button" 
+              type="button"
+              className="refresh-button" 
               onClick={this.handleClick} 
-              variant="primary"> Refresh
+              variant="outline-light"
+              size="lg" >
+              {'Refresh'}
             </Button>
-            <div className="map-section">
-              <a href={this.state.coordinates.map_url}>See Map (****Still working on****) </a>
-            </div> 
             <Footer />
         </div>
     );
@@ -59,3 +53,15 @@ render() {
 }
 
 export default App;
+
+
+//FOR TESTING
+// {/* {console.log(this.state.stationData)} */}
+// {/* {console.log(this.state.coordinates)} */}
+
+
+//   //MAP FETCH (NOT USING CURRENTLY)
+//   fetch('https://api.wheretheiss.at/v1/coordinates/37.795517,-122.393693')
+//   .then(response => response.json())
+//   .then(data2 => this.setState({coordinates: data2}));
+// }

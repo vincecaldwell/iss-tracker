@@ -1,13 +1,11 @@
 
 .container {
-  background-image: linear-gradient(to right, #74b9ff, #0984e3);
+  background-image: linear-gradient(to right, #222831, #393e46);
   text-align: center;
-  /* margin: 0 5rem; */
-  padding-top:10px;
-  font-family:sans-serif;
+  padding-top: 20px;
+  color:#eeeeee;
 }
 
-.map-section {
-  margin-top:1rem;
+.refresh-button {
+  margin-top: 20px;
 }
-

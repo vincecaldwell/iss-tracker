@@ -23,21 +23,24 @@ const dateConverter = (props) => {
 
 
 //EXPORT of information
-export const DataCard = ({station, dateFormat}) => (
+export const DataCard = ({station}) => (
     <div className="data-container">
         <div className="space">
             <span role="img" aria-label="Rocket">🚀🚀🚀🚀🚀🚀</span>
         </div>
-        <div className= "info">Name: {station.name}</div>
+        <div className= "info">Satellite Name: ISS</div>
         <div className= "info ">24-Hour Clock: {dateConverter(station.timestamp)}</div>
         <div className= "info">Current View: {station.visibility}</div>
-        {/* <div className= "info">Units of Measurement: {station.units}</div> */}
         <div className="space">
             <span role="img" aria-label="Compass">🧭🧭🧭🧭🧭🧭</span>
         </div>
         <div className= "info">Latitude: {station.latitude}</div>
         <div className= "info">Longitude: {station.longitude}</div>
+        <div>
+            <a href ={'https://maps.google.com/maps?q=' + station.latitude + ',' + station.longitude + '&z=4'}>See Map Here</a>
+        </div>
         <div className= "info">How Fast: {roundNumber(station.velocity)} mph</div>
         <div className= "info">How High: {roundNumber(station.altitude)} miles</div>
+        
     </div>
 )
