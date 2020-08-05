@@ -53,15 +53,3 @@ render() {
 }
 
 export default App;
-
-
-//FOR TESTING
-// {/* {console.log(this.state.stationData)} */}
-// {/* {console.log(this.state.coordinates)} */}
-
-
-//   //MAP FETCH (NOT USING CURRENTLY)
-//   fetch('https://api.wheretheiss.at/v1/coordinates/37.795517,-122.393693')
-//   .then(response => response.json())
-//   .then(data2 => this.setState({coordinates: data2}));
-// }
