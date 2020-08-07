@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/iss-tracker/static/css/main.8b480806.chunk.css",
-    "main.js": "/iss-tracker/static/js/main.b7f53a0c.chunk.js",
-    "main.js.map": "/iss-tracker/static/js/main.b7f53a0c.chunk.js.map",
+    "main.css": "/iss-tracker/static/css/main.eccd9ed8.chunk.css",
+    "main.js": "/iss-tracker/static/js/main.67682d9c.chunk.js",
+    "main.js.map": "/iss-tracker/static/js/main.67682d9c.chunk.js.map",
     "runtime-main.js": "/iss-tracker/static/js/runtime-main.bce6a6b1.js",
     "runtime-main.js.map": "/iss-tracker/static/js/runtime-main.bce6a6b1.js.map",
     "static/js/2.294a9d46.chunk.js": "/iss-tracker/static/js/2.294a9d46.chunk.js",
     "static/js/2.294a9d46.chunk.js.map": "/iss-tracker/static/js/2.294a9d46.chunk.js.map",
     "index.html": "/iss-tracker/index.html",
-    "precache-manifest.f09a32696f608b0edfd3a3c1a91ce427.js": "/iss-tracker/precache-manifest.f09a32696f608b0edfd3a3c1a91ce427.js",
+    "precache-manifest.06ff9989f32a9630ad49c5c8f1c2d0d8.js": "/iss-tracker/precache-manifest.06ff9989f32a9630ad49c5c8f1c2d0d8.js",
     "service-worker.js": "/iss-tracker/service-worker.js",
-    "static/css/main.8b480806.chunk.css.map": "/iss-tracker/static/css/main.8b480806.chunk.css.map",
+    "static/css/main.eccd9ed8.chunk.css.map": "/iss-tracker/static/css/main.eccd9ed8.chunk.css.map",
     "static/js/2.294a9d46.chunk.js.LICENSE.txt": "/iss-tracker/static/js/2.294a9d46.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.bce6a6b1.js",
     "static/js/2.294a9d46.chunk.js",
-    "static/css/main.8b480806.chunk.css",
-    "static/js/main.b7f53a0c.chunk.js"
+    "static/css/main.eccd9ed8.chunk.css",
+    "static/js/main.67682d9c.chunk.js"
   ]
 }
