@@ -34,19 +34,12 @@ componentDidMount(){
 }
   
 
-  
-
-  //Refresh Data when button clicked
- 
-  handleClick = () => {
-
-  fetch(API)
+//Refresh Data when button clicked
+handleClick = () => {
+    fetch(API)
     .then(response => response.json())
     .then(data => this.setState({stationData: data}));
-  }
-
-
-
+}
 
 
 render() {
